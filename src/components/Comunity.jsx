@@ -1,4 +1,7 @@
 import React from 'react';
+import clubs from '../assets/community/icon.svg';
+import associations from '../assets/community/icon (1).svg';
+import organisations from '../assets/community/icon (2).svg';
 
 function Comunity() {
     return (
@@ -8,14 +11,17 @@ function Comunity() {
                 <p>Who is Nextcent suitable for?</p>
                 <div className="community-grid">
                     <div className="comm-card">
+                        <img src={organisations} alt="" />
                         <h4>Membership Organisations</h4>
                         <p>Our membership management software provides full automation of membership renewals and payments</p>
                     </div>
                     <div className="comm-card">
+                        <img src={associations} alt="" />
                         <h4>National Associations</h4>
                         <p>Our membership management software provides full automation of membership renewals and payments</p>
                     </div>
                     <div className="comm-card">
+                        <img src={clubs} alt="" />
                         <h4>Clubs And Groups</h4>
                         <p>Our membership management software provides full automation of membership renewals and payments</p>
                     </div>

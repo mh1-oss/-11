@@ -10,7 +10,7 @@ import Howto from './components/Howto';
 import Help from './components/Help';
 import Footing from './components/Footing';
 import './App.css';
-
+import Cards from './components/Cards.jsx';
 function App() {
   return (
     <div className="app-container">
@@ -21,9 +21,10 @@ function App() {
         <Comunity />
         <Spending />
         <Customer />
-        <Demo />
         <Howto />
         <Help />
+        <Cards/>
+        <Demo />
       </main>
       <Footing />
     </div>

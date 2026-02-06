@@ -14,6 +14,11 @@ function Slide() {
                     <img src={hero_illustration} alt="Hero Illustration" />
                 </div>
             </div>
+            <div className="hero-dots">
+                <div className="dot active"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
+            </div>
         </section>
     );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo.svg';
 
 function Footing() {
     return (
@@ -6,7 +7,7 @@ function Footing() {
             <div className="container">
                 <div className="footer-top">
                     <div className="footer-brand">
-                        <h2>Brand</h2>
+                        <img src={logo} className='logo' style={{ filter: 'brightness(0) invert(1)' }} alt="" />
                         <p>Copyright © 2024 Landify UI Kit.</p>
                         <p>All rights reserved</p>
                         <div className="social-links">

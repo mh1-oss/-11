@@ -1,7 +1,7 @@
 import React from 'react';
-import clubs from '../assets/community/icon.svg';
-import associations from '../assets/community/icon (1).svg';
-import organisations from '../assets/community/icon (2).svg';
+import clubs from '../assets/community/Icon.svg';
+import associations from '../assets/community/Icon (1).svg';
+import organisations from '../assets/community/Icon (2).svg';
 
 function Comunity() {
     return (
